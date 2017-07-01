@@ -1,0 +1,68 @@
+
+@import "ui-variables";
+@import "syntax-variables";
+
+.one-vibrancy {
+
+  // One themes ----------------------------------
+
+  // Transparent background
+  html&,
+  atom-workspace,
+  atom-text-editor,
+  atom-dock .item-views,
+  atom-dock .tab-bar .tab.active,
+  atom-pane-container atom-pane .item-views .pane-item,
+  .atom-dock-mask,
+  .title-bar,
+  .status-bar,
+  .tool-panel,
+  .tab-bar,
+  .settings-view .config-menu,
+  .settings-view > .panels {
+    background-color: transparent;
+  }
+
+  // Semi transparent background
+  .item-views,
+  .github-CommitView-editor,
+  .tab-bar .tab.active[data-type$="Editor"],
+  .tab-bar .tab.active[data-type$="AboutView"],
+  .tab-bar .tab.active[data-type$="TimecopView"],
+  .tab-bar .tab.active[data-type$="StyleguideView"],
+  .tab-bar .tab.active[data-type="MarkdownPreviewView"],
+  .tab-bar .tab.active {
+    background-color: fade(@syntax-background-color, 50%);
+  }
+
+  // Selected border
+  .github-StagingView-group.is-focused .is-selected,
+  .tree-view .selected:before {
+    background-color: fade(@text-color-selected, 8%);
+  }
+
+  // Borders
+  * {
+    border-color: fade(@text-color-selected, 8%) !important;
+  }
+
+  // Text color
+  .github-Panel,
+  status-bar a, status-bar a:hover,
+  atom-panel {
+    color: fade(@text-color-selected, 50%);
+  }
+
+
+  // Packages ----------------------------------
+
+  .tool-bar,
+  .tool-bar button.tool-bar-btn {
+    background-color: transparent;
+  }
+  .tool-bar button.tool-bar-btn {
+    border-color: transparent !important;
+  }
+
+
+}

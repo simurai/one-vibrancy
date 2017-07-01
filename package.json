@@ -1,0 +1,38 @@
+{
+  "name": "one-vibrancy",
+  "main": "./lib/one-vibrancy",
+  "version": "0.0.0",
+  "description": "This package adds a vibrancy effect (translucent background) to One themes.",
+  "keywords": [
+    "vibrancy",
+    "effect",
+    "translucent",
+    "background",
+    "macOS"
+  ],
+  "repository": "https://github.com/simurai/one-vibrancy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "effect": {
+      "title": "Effect",
+      "description": "Switch between different vibrancy effects. `auto` will change based on the UI theme you're using.",
+      "type": "string",
+      "default": "auto",
+      "enum": [
+        "auto",
+        "light",
+        "medium-light",
+        "titlebar",
+        "selection",
+        "dark",
+        "ultra-dark"
+      ],
+      "order": 1
+    }
+  }
+}
