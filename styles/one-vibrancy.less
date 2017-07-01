@@ -18,6 +18,7 @@
   .status-bar,
   .tool-panel,
   .tab-bar,
+  .tab-bar .tab,
   .settings-view .config-menu,
   .settings-view > .panels {
     background-color: transparent;
@@ -35,15 +36,10 @@
     background-color: fade(@syntax-background-color, 50%);
   }
 
-  // Selected border
+  // Selected background
   .github-StagingView-group.is-focused .is-selected,
   .tree-view .selected:before {
     background-color: fade(@text-color-selected, 8%);
-  }
-
-  // Borders
-  * {
-    border-color: fade(@text-color-selected, 8%) !important;
   }
 
   // Text color
@@ -53,8 +49,20 @@
     color: fade(@text-color-selected, 50%);
   }
 
+  // Borders
+  * {
+    border-color: fade(@text-color-selected, 8%) !important;
+  }
+
 
   // Packages ----------------------------------
+
+  // Tabs
+  .tab-bar .tab.tab.tab,
+  .tab-bar {
+    border: none;
+    box-shadow: none;
+  }
 
   .tool-bar,
   .tool-bar button.tool-bar-btn {
