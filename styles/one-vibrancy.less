@@ -18,7 +18,7 @@
   .status-bar,
   .tool-panel,
   .tab-bar,
-  .tab-bar .tab,
+  .tab-bar .tab.tab,
   .settings-view .config-menu,
   .settings-view > .panels {
     background-color: transparent;
@@ -36,7 +36,14 @@
     background-color: fade(@syntax-background-color, 50%);
   }
 
+  // Cursor line
+  atom-text-editor .gutter .line-number.cursor-line,
+  atom-text-editor .line.cursor-line {
+    background-color: fade(@text-color-selected, 4%);
+  }
+
   // Selected background
+  atom-text-editor .selection .region,
   .github-StagingView-group.is-focused .is-selected,
   .tree-view .selected:before {
     background-color: fade(@text-color-selected, 8%);
@@ -55,7 +62,14 @@
   }
 
 
-  // Packages ----------------------------------
+  // More overrides ----------------------------------
+
+  atom-text-editor .cursor {
+    border-color: @text-color-selected !important;
+  }
+  atom-text-editor .indent-guide {
+    color: fade(@text-color-selected, 8%);
+  }
 
   // Tabs
   .tab-bar .tab.tab.tab,
