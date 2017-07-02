@@ -9,6 +9,23 @@ This package adds a vibrancy effect (translucent background) to Atom One themes.
 > Note: Works only on macOS
 
 
+## Install
+
+```
+apm install one-vibrancy
+```
+
+## Settings
+
+In the package settings you can switch between different effects:
+
+- `auto` (Automatically switches between dark and light based on the current One UI theme)
+- `light`
+- `medium-light`
+- `dark`
+- `ultra-dark`
+
+
 ## FAQ
 
 #### Does it work for other Atom themes too?
