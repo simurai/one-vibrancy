@@ -2,9 +2,11 @@
 
 This package adds a vibrancy effect (translucent background) to Atom One themes.
 
-![one-vibrancy](https://user-images.githubusercontent.com/378023/27760219-0d8403a6-5e7d-11e7-8b23-813bc7144e3b.png)
+![one-vibrancy-dark](https://user-images.githubusercontent.com/378023/27769700-ecd344e8-5f6a-11e7-95b0-fb7eb53672b8.png)
+![one-vibrancy-light](https://user-images.githubusercontent.com/378023/27769701-ecd46ef4-5f6a-11e7-9643-0078ea2862e5.png)
 
 > Note: Works only on macOS
+
 
 ## FAQ
 
