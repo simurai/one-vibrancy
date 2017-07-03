@@ -13,7 +13,7 @@
   "repository": "https://github.com/simurai/one-vibrancy",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.19.0 <2.0.0"
   },
   "dependencies": {},
   "configSchema": {
