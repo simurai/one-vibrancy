@@ -1,4 +1,6 @@
-# One Vibrancy
+# One Vibrancy (Beta)
+
+> Note: This package only works in Atom `1.19`. Which currently is still in [Beta](https://atom.io/beta).
 
 This package adds a vibrancy effect (translucent background) to Atom One themes.
 
