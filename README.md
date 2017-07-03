@@ -30,6 +30,11 @@ In the package settings you can switch between different effects:
 
 ## FAQ
 
+#### I can't see any vibrancy!
+
+1. Make sure you're using Atom `1.19`, currently in [Beta](https://atom.io/beta).
+2. Make sure you use either `One Dark UI` or `One Light UI`. Other themes might work too, see next question.
+
 #### Does it work for other Atom themes too?
 
 Possibly. But only the One themes are maintained.
