@@ -1,7 +1,7 @@
 {
   "name": "one-vibrancy",
   "main": "./lib/one-vibrancy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This package adds a vibrancy effect (translucent background) to One themes.",
   "keywords": [
     "vibrancy",
