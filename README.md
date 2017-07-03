@@ -14,7 +14,7 @@ This package adds a vibrancy effect (translucent background) to Atom One themes.
 ## Install
 
 ```
-apm install one-vibrancy
+apm-beta install one-vibrancy
 ```
 
 ## Settings
