@@ -52,6 +52,11 @@ If there are parts that are not translucent, you can override it in your [styles
 }
 ```
 
+#### I don't see any transparency!
+
+Make sure you have macOS's "Reduce transparency" disabled, see [this gif](https://github.com/simurai/one-vibrancy/issues/7#issuecomment-319578317).
+
+
 #### The font doesn't look sharp!
 
 Yes, sub-pixel aliasing is lost when using a transparent background. A small price for a cool effect in return. 😉
