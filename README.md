@@ -1,7 +1,5 @@
 # One Vibrancy (Beta)
 
-> Note: This package only works in Atom `1.19`.
-
 This package adds a vibrancy effect (translucent background) to Atom One themes.
 
 ![one-vibrancy-dark](https://user-images.githubusercontent.com/378023/27769700-ecd344e8-5f6a-11e7-95b0-fb7eb53672b8.png)
@@ -32,8 +30,9 @@ In the package settings you can switch between different effects:
 
 #### I can't see any vibrancy!
 
-1. Make sure you're using Atom `1.19`, currently in [Beta](https://atom.io/beta).
+1. Make sure you're using Atom `1.19` or higher.
 2. Make sure you use either `One Dark UI` or `One Light UI`. Other themes might work too, see next question.
+3. Make sure you have macOS's "Reduce transparency" disabled, see [this gif](https://github.com/simurai/one-vibrancy/issues/7#issuecomment-319578317).
 
 #### Does it work for other Atom themes too?
 
@@ -51,11 +50,6 @@ If there are parts that are not translucent, you can override it in your [styles
   }
 }
 ```
-
-#### I don't see any transparency!
-
-Make sure you have macOS's "Reduce transparency" disabled, see [this gif](https://github.com/simurai/one-vibrancy/issues/7#issuecomment-319578317).
-
 
 #### The font doesn't look sharp!
 
