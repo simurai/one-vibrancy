@@ -1,4 +1,4 @@
-# One Vibrancy (Beta)
+# One Vibrancy
 
 This package adds a vibrancy effect (translucent background) to Atom One themes.
 
