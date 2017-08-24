@@ -86,5 +86,14 @@
     border-color: transparent !important;
   }
 
+  // Git gutter
+  atom-text-editor .gutter .line-number {
+    &.git-line-modified {
+      border-left-color: @syntax-color-modified !important;
+    }
+    &.git-line-added {
+      border-left-color: @syntax-color-added !important;
+    }
+  }
 
 }
