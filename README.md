@@ -19,7 +19,8 @@ apm install one-vibrancy
 
 In the package settings you can switch between different effects:
 
-- `auto` (Automatically switches between dark and light based on the current One UI theme)
+- `auto` (Automatically switches between dark and medium-light based on the current One UI theme)
+- `auto-opaque` (Automatically switches between ultra-dark and light based on the current One UI theme)
 - `light`
 - `medium-light`
 - `dark`
