@@ -1,6 +1,6 @@
 # One Vibrancy
 
-> Note: :warning: This package can currently cause Atom to crash. See [this comment](https://github.com/simurai/one-vibrancy/issues/18#issuecomment-473282864) for mor infos.
+> Note: :warning: This package can currently cause Atom to crash. See [this comment](https://github.com/simurai/one-vibrancy/issues/18#issuecomment-473282864) for more infos.
 
 This package adds a vibrancy effect (translucent background) to Atom One themes.
 
