@@ -15,22 +15,6 @@
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
   },
-  "dependencies": {},
-  "configSchema": {
-    "effect": {
-      "title": "Effect",
-      "description": "Switch between different vibrancy effects. `auto` and `auto-opaque` will change based on the UI theme you're using.",
-      "type": "string",
-      "default": "auto",
-      "enum": [
-        "auto",
-        "auto-opaque",
-        "light",
-        "medium-light",
-        "dark",
-        "ultra-dark"
-      ],
-      "order": 1
-    }
+  "dependencies": {}
   }
 }
